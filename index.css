@@ -1,0 +1,100 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+:root{
+    --boton-enlace: #994444;
+    --boton-enlace-hover: #812626;
+    --boton-enlace-click: #531b1b;
+    --letra-enlace: #e7dcdc;
+    --distancia-cards: 60px
+}
+
+.intro{
+    background-image: url(img/typing.gif);
+    height: 150px;
+    display: grid;
+    
+}
+
+.intro #pipe-rucinque{
+    font-size: 3.5em;
+    margin: auto;
+    color: #6c4f4f;
+    text-shadow: 2px black;
+     
+}
+
+.intro #fullstack{
+    font-size: 1.5em;
+    margin: auto;
+}
+
+.navegador{
+    background-color: rgb(175, 162, 248);
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+    
+.navegador .enlaces{
+        text-decoration: none;
+        font-size: 25px;
+        color: var(--letra-enlace);
+        background-color: var(--boton-enlace);
+        border-radius: 30px;
+        width: fit-content;
+        padding: 0.5em;
+        margin-left: 0.3em;
+        
+        
+}
+
+.enlaces:hover{
+    background-color: var(--boton-enlace-hover) 
+}
+.enlaces:active{
+    background-color: var(--boton-enlace-click);
+}
+
+.cuerpo{
+    background-color: blue;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    
+    
+}
+
+.cuerpo .card-biografia, .card-portafolio{
+    background-color: white;
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+
+
+}
+
+/*.card-biografia{
+    margin-right: var(--distancia-cards);
+}
+.card-portafolio{
+    margin-left: var(--distancia-cards);
+}*/
+
+
+.pie{
+    background-color: rgb(27, 18, 69);
+    height: 100px;
+    bottom: 0;
+    
+}
+
+
+
